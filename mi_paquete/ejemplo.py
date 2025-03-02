@@ -1,5 +1,9 @@
-import mi_modulo
+import mi_modulo as m
 
-suma = mi_modulo.suma(3, 4)
+suma = m.suma(3, 4)
 
 print(suma)
+
+
+mi_perro = m.Perro("Manchado")
+print(mi_perro.nombre)
